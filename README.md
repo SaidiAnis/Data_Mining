@@ -22,7 +22,7 @@ The following libraries are required to run the notebook:
 - `matplotlib`
 - `seaborn`
   
-Install them via `pip install -r requirements.txt` if a `requirements.txt` file is provided.
+Install them via `pip install -r requirements.txt`.
 
 ## Usage
 1. **Download the Reuters Data**: Ensure you have the required data files (not included in this repository) and place them in the specified directory as shown in the code.
