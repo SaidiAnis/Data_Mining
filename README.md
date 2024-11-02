@@ -1,20 +1,20 @@
-# Projet de Data Mining - Extraction de Texte
+# Data Mining Project - Text Mining
 
 ## Description
-Ce projet est une analyse de data mining axée sur le **text mining** appliqué aux articles de Reuters. Le projet inclut des étapes de prétraitement des données textuelles, la transformation TF-IDF, la réduction de dimension, et l’application de techniques de clustering pour identifier des patterns dans les données textuelles.
+This project is a data mining analysis focused on **text mining** applied to Reuters articles. It includes steps for text data preprocessing, TF-IDF transformation, dimensionality reduction, and clustering techniques to identify patterns in text data.
 
-## Structure du Projet
-1. **Chargement et Prétraitement des Données** : Importation des articles Reuters et nettoyage des textes.
-2. **Vectorisation** : Transformation des textes en matrice de termes pondérée par **TF-IDF**.
-3. **Réduction de Dimension** :
-   - **PCA** : Réduction des données à 3 dimensions pour visualiser les clusters.
-   - **NMF** : Factorisation en matrice non-négative pour obtenir les vecteurs de caractéristiques et la matrice de clusters.
-4. **Clustering et Visualisation** :
-   - Visualisation des clusters en 3D, avec un code permettant d’ajuster les angles de vue pour examiner la séparation des clusters.
-   - Évaluation des clusters avec des métriques comme **purity score**, **entropie**, **indice de Dunn**, **indice Davies-Bouldin** et **indice Calinski-Harabasz**.
+## Project Structure
+1. **Data Loading and Preprocessing**: Importing Reuters articles and cleaning the text data.
+2. **Vectorization**: Transforming text into a TF-IDF weighted term matrix.
+3. **Dimensionality Reduction**:
+   - **PCA**: Reducing data to 3 dimensions for cluster visualization.
+   - **NMF**: Non-negative Matrix Factorization to obtain feature vectors and cluster matrix.
+4. **Clustering and Visualization**:
+   - 3D visualization of clusters with adjustable viewing angles to examine cluster separation.
+   - Cluster evaluation using metrics such as **purity score**, **entropy**, **Dunn index**, **Davies-Bouldin index**, and **Calinski-Harabasz index**.
 
 ## Installation
-Les bibliothèques suivantes sont nécessaires pour exécuter le notebook :
+The following libraries are required to run the notebook:
 - `numpy`
 - `pandas`
 - `nltk`
@@ -22,15 +22,14 @@ Les bibliothèques suivantes sont nécessaires pour exécuter le notebook :
 - `matplotlib`
 - `seaborn`
   
-Installez-les via `pip install -r requirements.txt` si un fichier `requirements.txt` est fourni.
+Install them via `pip install -r requirements.txt` if a `requirements.txt` file is provided.
 
-## Utilisation
-1. **Télécharger les données Reuters** : Assurez-vous d'avoir les fichiers de données nécessaires (non inclus dans ce repository) et placez-les dans le répertoire spécifié dans le code.
-2. **Exécuter les cellules du notebook** pour reproduire l'analyse et les visualisations des clusters.
+## Usage
+1. **Download the Reuters Data**: Ensure you have the required data files (not included in this repository) and place them in the specified directory as shown in the code.
+2. **Run the notebook cells** to reproduce the analysis and cluster visualizations.
 
-## Résultats
-Les principales conclusions incluent l'obtention de clusters significatifs dans les données Reuters et l’identification des termes les plus fréquents. La visualisation en 3D permet d’observer la distribution des articles par thèmes principaux.
+## Results
+Key findings include significant clusters within the Reuters dataset and the identification of the most frequent terms. The 3D visualization allows for observing the distribution of articles by main themes.
 
 ## Contact
-Pour toute question, veuillez contacter [votre email] ou consulter mon profil GitHub pour d'autres projets similaires.
-
+For any questions, please contact [your email] or check my GitHub profile for similar projects.
