@@ -32,4 +32,4 @@ Install them via `pip install -r requirements.txt` if a `requirements.txt` file 
 Key findings include significant clusters within the Reuters dataset and the identification of the most frequent terms. The 3D visualization allows for observing the distribution of articles by main themes.
 
 ## Contact
-For any questions, please contact [your email] or check my GitHub profile for similar projects.
+For any questions, please contact me.
